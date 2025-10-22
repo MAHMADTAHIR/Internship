@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #becda6;
+  border-radius: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.deleted{
+  color: black;
+}
+
+.completed{
+  background-color: white;
+}
